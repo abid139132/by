@@ -22,44 +22,6 @@ try:
 	import concurrent.futures
 except ImportError:
 	os.system("pip install futures")
-
-import os
-import sys
-import time
-import requests
-import random
-import platform
-import base64
-import subprocess
-from concurrent.futures import ThreadPoolExecutor
-
-
-def runtxt(z):
-    for e in z + "\n":
-        sys.stdout.write(e)
-        sys.stdout.flush()
-        time.sleep(0.03)
-
-
-
-def helpnote():
-	print("%s [*] FOLLOW ME ON Fb TU KNOW ABOUT UPDATES  :)"%(G))
-	subprocess.check_output(["am", "start", "https://www.facebook.com/4FR1D1.143"])
-	exit(" [*] FACEBOOK :  https://www.facebook.com/4FR1D1.143")
-
-
-
-
-
-        
-plist = (platform.uname())[2]
-basex = plist
-basex1 = basex.encode('ascii')
-basex2 = base64.b64encode(basex1)
-basex3 = basex2.decode('ascii')
-base4 = (basex3).upper()
-basesplit = base4.replace('=', 'X').replace('A', '3').replace('B', '9').replace('C', '7').replace('D', '1').replace('E', '4').replace('M', '2').replace('L', '6').replace('F', '8').replace('N', 'E').replace('T', '8')
-
 		
 print 
 ("""\033[1;91m ##     ##    ###    ##     ##    ###    ########  #### 
