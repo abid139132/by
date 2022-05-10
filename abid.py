@@ -48,14 +48,7 @@ def helpnote():
 	exit(" [*] FACEBOOK :  https://www.facebook.com/4FR1D1.143")
 
 
-def notice():
 
- 
-
-	runtxt("\n\033[0;91m YOU ARE NOT PREMIUM USER ")
-	runtxt("\033[0;93m SEND THIS KEY TO ADMIN >> %s%s"%(G,basesplit))
-	runtxt("\033[0;92m ADMIN FACEBOOK >> MAHADI HASAN AFRIDI")
-	subprocess.check_output(["am", "start", "https://www.facebook.com/4FR1D1.143"])
 
 
         
@@ -67,27 +60,6 @@ basex3 = basex2.decode('ascii')
 base4 = (basex3).upper()
 basesplit = base4.replace('=', 'X').replace('A', '3').replace('B', '9').replace('C', '7').replace('D', '1').replace('E', '4').replace('M', '2').replace('L', '6').replace('F', '8').replace('N', 'E').replace('T', '8')
 
-
-class Main:
-	def __init__(self):
-		self.id = []
-		self.ok = []
-		self.cp = []
-		self.loop = 0
-		try:
-			plr = requests.get('https://raw.githubusercontent.com/MAHADI-143/apporved/main/New%20paid%F0%9F%99%83').text
-			if basesplit in plr:
-				key = basesplit
-				stat = ("\033[0;92mP R E M I U M")
-				FY = '\033[0;93m'
-				FG = '\033[0;92m'
-				GET = '\r'
-			else:
-				def
-		except requests.exceptions.ConnectionError:
-			print("\n%s [!] NO INTERNET CONNECTION..\n"%(R))
-			exit()
-		os.system("clear")
 		
 		print ("""\033[1;91m ##     ##    ###    ##     ##    ###    ########  #### 
 \033[1;92m ###   ###   ## ##   ##     ##   ## ##   ##     ##  ##
